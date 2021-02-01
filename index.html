@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Page</title>
+
+    <!-- This is my personal Cloud-Hosted player link, it will stop working once testing is complete. -->
+    <!-- Please replace with your Cloud-Hosted Player. Do not use in a Production Environment-->	
+    <script src="https://cdn.jwplayer.com/libraries/WUAzyxmA.js"></script>
+    <!-- This is my personal Cloud-Hosted player link, it will stop working once testing is complete. -->
+    <!-- Please replace with your Cloud-Hosted Player. Do not use in a Production Environment-->
+    
+    <!-- Steps -->
+    <!-- Step 1 - NON-JWT Signed URL, review Crypto.JS for MD5 token -->
+    <!-- https://www.npmjs.com/package/crypto-js -->
+
+  </head>
+
+    <body>
+
+	    <!--  HTML Player Appended-->
+	    <div id="player">
+	    </div>
+
+	    <!-- JavaScript Player Instantiated -->
+	    <script type="text/javascript">
+	  
+            let player = jwplayer('player')
+            
+            player.setup({
+                playlist: "https://cdn.jwplayer.com/v2/media/csd5QyDY", 
+                autostart: false 
+            })
+		
+	    </script> 
+    </body>
+</html>

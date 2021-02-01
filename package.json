@@ -1,0 +1,10 @@
+{
+  "name": "JWPlayerTokenNonTokenSigning",
+  "version": "1.0.0",
+  "description": "demo for jwt and non-jwt signed urls",
+  "main": "index.js",
+  "repository": "https://github.com/krtb/JWPlayerTokenNonTokenSigning",
+  "author": "Kurt Bauer",
+  "license": "MIT",
+  "private": false
+}
